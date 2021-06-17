@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo_oficial {
+    height: 40px;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar-container ul li{    
+    padding: 0 20px;
+    transition: all 500ms ease;
+    
+}
+.navbar-container ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-container ul li a:hover{
+    color: #1db954;
+    cursor: pointer;    
+}
+
+.navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+main{
+    background-color: #9BF0E1;
+}
+
+.main-container{
+    height: 95vh;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.main-container .main-texto{
+    color: #2D46B9;
+    margin-right: 20px;
+}
+
+.main-container .main-texto p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+.main-container .main-texto h1{
+    font-size: 60px;
+    letter-spacing: 0.24px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.main-container .main-texto h2{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 30px;
+    
+}
+
+.main-container .main-texto button{
+    margin-top: 30px;   
+    max-width: 330px;
+    padding: 15px 60px;   
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    text-transform: uppercase;
+    background-color: #2D46B9;
+}
+
+.main-container .main-texto button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-container .main-texto button:hover{
+    padding: 16px 61px;
+}
+
+.main-container .main-imagem img{
+    height: 400px;
+}
+
+section{    
+    background: url(/src/bolinhas.svg) center center/cover;
+    background-color: #2941AB;
+    height: 90vh;
+}
+
+section .second-texto{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.second-texto{
+    color: #1ED760;
+
+}
+
+.second-texto p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.second-texto h1{
+    font-size: 60px;
+    letter-spacing: 0.24px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.second-texto h2{
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 30px;
+    max-width: 55%;
+    
+}
+
+.second-texto button{
+    margin-top: 30px;
+    padding: 15px 60px;
+    max-width: 300px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 500ms ease;
+    text-transform: uppercase;
+    background-color: #1ED760;
+}
+
+.second-texto button a{
+    text-decoration: none;
+    color: #2D46B9;
+}
+
+.second-texto button:hover{
+    padding: 16px 61px;
+}
+
+#footer{
+    background: black;
+    color: white;
+    padding: 80px 0 50px 0;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 85%;
+    margin: auto; 
+    justify-content: space-between;  
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 10px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item{
+    margin: 20px 0;
+    transition: all 500ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08rem;
+}
+
+#footer .footer-content .footer-menu li{
+    font-size: 16px;
+}
+
+/* FOOTER SOCIALS*/
+
+.socials{
+    display: flex;    
+}
+
+.socials a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 44px;
+    height: 44px;
+    background: #222326;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.socials i{
+    margin: 0 20px;
+    font-size: 1.7rem;
+    transition: all 500ms ease;
+}
+
+.socials i:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+
+/* FOOTER INFO */
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+    padding-top: 50px;
+}
+
+.footer-info .footer-info-items{
+    display: flex;
+    list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item{
+    margin: 0 10px;    
+    transition: all 500ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+
+.footer-info .rights .country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country p{
+    transition: all 500ms ease;
+}
+
+.footer-info .rights .country p:hover{
+    color: #1db954;
+    cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
